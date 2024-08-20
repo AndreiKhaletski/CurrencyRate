@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://pg_db:5432/classifier
+    username: ${DB_LOGIN}
+    password: ${DB_PASSWORD}

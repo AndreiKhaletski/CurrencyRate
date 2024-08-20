@@ -1,0 +1,14 @@
+krainet\trainee\service\api\IRateService.class
+krainet\trainee\service\converter\ConverterEntityToDto.class
+krainet\trainee\controller\http\RateController.class
+krainet\trainee\service\core\EnumErrors.class
+krainet\trainee\dao\entity\RateEntity.class
+krainet\trainee\service\core\dto\RateDto.class
+krainet\trainee\service\RateService.class
+krainet\trainee\config\JsonMapper.class
+krainet\trainee\service\converter\ConverterDtoToEntity.class
+krainet\trainee\service\RestTemplateConfig\RestTemplateConfig.class
+krainet\trainee\service\exceptions\FailMailSendException.class
+krainet\trainee\service\core\dto\RateDto$RateDtoBuilder.class
+krainet\trainee\CurrencyApplication.class
+krainet\trainee\dao\api\IRateResource.class

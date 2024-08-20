@@ -1,0 +1,40 @@
+name: finance
+
+services:
+ user-service:
+  build: user-service
+  image: user:1.0.0
+  environment:
+    SPRING_PROFILES_ACTIVE: docker
+    DB_LOGIN: rate_app
+    DB_PASSWORD: 855312
+  networks:
+   - tracker-network
+ pg_db:
+  build: postgresql
+  image: postgresql-tracker:1.0.0
+  environment:
+   POSTGRES_USER: rate_admin
+   POSTGRES_PASSWORD: 855312
+  networks:
+   - tracker-network
+ pgadmin:
+  build: pgadmin
+  image: pgadmin-rate:1.0.0
+  environment:
+   PGADMIN_DEFAULT_EMAIL: admin@rate.com
+   PGADMIN_DEFAULT_PASSWORD: rate
+  ports:
+   - 85:80
+  networks:
+   - tracker-network
+ proxy:
+  build: proxy
+  image: proxy-tracker:1.0.0
+  ports:
+   - 80:80
+  networks:
+   - tracker-network
+   
+networks:
+ tracker-network:

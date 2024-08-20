@@ -1,0 +1,16 @@
+C:\CurrencyRate\currency-service\src\main\java\krainet\trainee\service\converter\ConverterEntityToDto.java
+C:\CurrencyRate\currency-service\src\main\java\krainet\trainee\controller\http\RateController.java
+C:\CurrencyRate\currency-service\src\main\java\krainet\trainee\service\core\EnumErrors.java
+C:\CurrencyRate\currency-service\src\main\java\krainet\trainee\service\core\dto\RateDto.java
+C:\CurrencyRate\currency-service\src\main\java\krainet\trainee\service\exceptions\FailMailSendException.java
+C:\CurrencyRate\currency-service\src\main\java\krainet\trainee\service\RateService.java
+C:\CurrencyRate\currency-service\src\main\java\krainet\trainee\dao\entity\RateEntity.java
+C:\CurrencyRate\currency-service\src\main\java\krainet\trainee\service\RestTemplateConfig\RestTemplateConfig.java
+C:\CurrencyRate\currency-service\src\main\java\krainet\trainee\config\JsonMapper.java
+C:\CurrencyRate\currency-service\src\main\java\krainet\trainee\dao\api\IRateResource.java
+C:\CurrencyRate\currency-service\src\main\java\krainet\trainee\CurrencyApplication.java
+C:\CurrencyRate\currency-service\src\main\java\krainet\trainee\service\converter\ConverterDtoToEntity.java
+C:\CurrencyRate\currency-service\src\main\java\krainet\trainee\exception\BadRequestExceptionDto.java
+C:\CurrencyRate\currency-service\src\main\java\krainet\trainee\exception\GlobalExceptionHandler.java
+C:\CurrencyRate\currency-service\src\main\java\krainet\trainee\service\api\IRateService.java
+C:\CurrencyRate\currency-service\src\main\java\krainet\trainee\exception\InternalServerExceptionDto.java
